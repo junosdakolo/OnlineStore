@@ -38,8 +38,8 @@
       <section class="text-white text-center py-5" style="background-image: url('res/store/slider-2-2.jpg'); background-size: cover;">
         <h1 class="display-4 fw-bold mt-5">ECO-FRIENDLY BRANDS<BR>TO SUPPORT</h1>
         <p class="lead">Discover the latest trends and timeless pieces at Lumei, where we curate collections that let you express yourself effortlessly. Whether you’re dressing up for a special occasion or adding essentials to your daily wardrobe, find your signature look here.</p>
-        <a href="#" class="btn btn-light btn-lg">New Collections</a>
-        <a href="#" class="btn btn-light btn-lg">Read More</a>
+        <a href="#" class="btn btn-light btn-secondary">New Collections</a>
+        <a href="#" class="btn btn-light btn-secondary">Read More</a>
       </section>
 
     <!-- Products Section -->
@@ -52,7 +52,7 @@
             <img src="res/store/banner-6.jpg" class="card-img-top" alt="Philippines">
             <div class="card-body">
               <h5 class="card-title">Winter Bag Collection</h5>
-              <a href="#" class="btn btn-secondary">See More</a>
+              <a href="#" class="btn btn-secondary text-light">See More</a>
             </div>
           </div>
         </div>
@@ -78,87 +78,110 @@
     </section>
     <section class="text-white text-center py-5" style="background-image: url('res/store/slider-2-3.jpg'); background-size: cover;">
       <h1 class="display-4 fw-bold">Winter <br> Collection<br>2024</h1>
-      <a href="#" class="btn btn-light btn-lg">Shop Now</a>
+      <a href="#" class="btn btn-secondary  btn-light ">Shop Now</a>
     </section>
     
     <!-- Contact and Location -->
-    <div class="container  bg-dark mt-3 " >
+    <div class="container bg-dark mt-3">
       <div class="row">
-        <div class="col-lg-6 col-sm-12 mb-3 text-light">
-          <h2 class="text-center mt-3">Contact Us</h2>
-          <form class="p-2">
-            <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name">
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email">
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label ">Message</label>
-              <textarea class="form-control" id="message"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
-        <div class="col-lg-6 col-sm-12 mt-3 text-light">
-          <h3 >Locate Us</h3>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31716.49824661653!2d3.4504165545608325!3d6.450198136623385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf452da3bd44b%3A0x47331fb41adc9d28!2sLekki%20Phase%201%2C%20Lekki%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1731749826170!5m2!1sen!2sng" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-      </div>
+          <!-- Contact Form Section -->
+          <div class="col-lg-6 col-sm-12 mb-3 text-light">
+              <h2 class="text-center mt-3">Contact Us</h2>
+              <form class="p-3">
+                  <div class="mb-3">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea class="form-control" id="message" rows="4" placeholder="Type your message" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-secondary text-light">Submit</button>
+              </form>
+          </div>
   
-    </div>
+          <!-- Locate Us Section -->
+          <div class="col-lg-6 col-sm-12 mt-3 mbtext-light">
+              <h3 class="text-center text-light">Locate Us</h3>
+              <div class="d-flex justify-content-center mt-3">
+                  <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31716.49824661653!2d3.4504165545608325!3d6.450198136623385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf452da3bd44b%3A0x47331fb41adc9d28!2sLekki%20Phase%201%2C%20Lekki%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1731749826170!5m2!1sen!2sng"
+                      width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+              </div>
+          </div>
+      </div>
+  </div>
+  
 
     <!-- Footer Section -->
 
     <footer class="footer">
-      <div class="container bg-dark gap-2 mt-3 text-light ">
+    <div class="container bg-dark text-light py-4 mt-3">
         <div class="row text-center text-md-start">
-          <div class="col-lg-4 col-sm-12 mb-3 mt-3">
-            <h4 class="mb-3 fw-bold">GAW</h4>
-          </div>
-          <div class="col-lg-4 col-sm-12 mb-3 mt-3">
-              <p>Claim your exclusive discount code when you subscribe to our emails...</p>
-              <div class="subscribe d-flex">
-                <input type="email" class="form-control me-2" placeholder="Enter your email...">
-                <button class="btn subscribe-btn text-light btn-secondary">SUBSCRIBE</button>
-              </div>  
-          </div>
-          <div class="col-lg-4 col-sm-12 mb-3 mt-3">
-            <h5>Payment Methods:</h5>
-            <div class="payment-icons mt-2">
-              <img src="res/store/payment.png" alt="Mastercard">
+            <!-- Logo Section -->
+            <div class="col-lg-4 col-sm-12 mb-3 mt-3">
+                <h4 class="mb-3 fw-bold">GAW</h4>
             </div>
-          </div>
-          <div class="col-lg-4 col-sm-12 mb-3">
-            <p>Email: gawonline@gmail.com</p>
-            <p>Hours: Mon – Fri // 78m – 5pm (WAT)</p>
-            <p>Address: Lekki Phase 1, Lagos State</p>
-          </div> 
-          <div class="col-lg-4 col-sm-12 mb-3">
-            <ul class="col list-unstyled ">
-              <li><a class="text-decoration-none text-light"  href="#">My Account</a></li>
-              <li><a class="text-decoration-none text-light"  href="#">Login</a></li>
-              <li><a class="text-decoration-none text-light"  href="#">My Cart</a></li>
-              <li><a class="text-decoration-none text-light"  href="#">Wishlist</a></li>
-              <li><a class="text-decoration-none text-light"  href="#">Checkout</a></li>
-            </ul>
-         </div>       
-          <div class="col-lg-4 col-sm-12 mb-3">
-            <ul class="col list-unstyled ">
-              <li><a class="text-decoration-none text-light" href="#">About Us</a></li>
-              <li><a class="text-decoration-none text-light"  href="#">Careers</a></li>
-              <li><a class="text-decoration-none text-light"  href="#">Delivery Information</a></li>
-              <li><a class="text-decoration-none text-light"  href="#">Privacy Policy</a></li>
-              <li><a class="text-decoration-none text-light"  href="#">Terms & Condition</a></li>
-            </ul>
-          </div>
-          <p class="footer-text text-center ">TM &copy; 2024 GAW. All Rights Reserved</p>
+
+            <!-- Subscription Section -->
+            <div class="col-lg-4 col-sm-12 mb-3 mt-3">
+                <p>Claim your exclusive discount code when you subscribe to our emails...</p>
+                <div class="subscribe d-flex">
+                    <input type="email" class="form-control me-2" placeholder="Enter your email...">
+                    <button class="btn btn-secondary text-light">SUBSCRIBE</button>
+                </div>
+            </div>
+
+            <!-- Payment Methods -->
+            <div class="col-lg-4 col-sm-12 mb-3 mt-3">
+                <h5>Payment Methods:</h5>
+                <div class="payment-icons mt-2">
+                    <img src="res/store/payment.png" alt="Payment Methods" style="max-width: 100%; height: auto;">
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="col-lg-4 col-sm-12 mb-3">
+                <p>Email: gawonline@gmail.com</p>
+                <p>Hours: Mon - Fri // 7am - 5pm (WAT)</p>
+                <p>Address: Lekki Phase 1, Lagos State</p>
+            </div>
+
+            <!-- Links Section 1 -->
+            <div class="col-lg-4 col-sm-12 mb-3">
+                <ul class="list-unstyled">
+                    <li><a class="footer-link text-decoration-none text-light" href="#">My Account</a></li>
+                    <li><a class="footer-link text-decoration-none text-light" href="#">Login</a></li>
+                    <li><a class="footer-link text-decoration-none text-light" href="#">My Cart</a></li>
+                    <li><a class="footer-link text-decoration-none text-light" href="#">Wishlist</a></li>
+                    <li><a class="footer-link text-decoration-none text-light" href="#">Checkout</a></li>
+                </ul>
+            </div>
+
+            <!-- Links Section 2 -->
+            <div class="col-lg-4 col-sm-12 mb-3">
+                <ul class="list-unstyled">
+                    <li><a class="footer-link text-decoration-none text-light" href="#">About Us</a></li>
+                    <li><a class="footer-link text-decoration-none text-light" href="#">Careers</a></li>
+                    <li><a class="footer-link text-decoration-none text-light" href="#">Delivery Information</a></li>
+                    <li><a class="footer-link text-decoration-none text-light" href="#">Privacy Policy</a></li>
+                    <li><a class="footer-link text-decoration-none text-light" href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </footer>
+
+        <!-- Footer Text -->
+        <p class="footer-text text-center mt-3 mb-0">
+            TM &copy; 2024 GAW. All Rights Reserved
+        </p>
+    </div>
+</footer>
   </div>
 </div>
 
